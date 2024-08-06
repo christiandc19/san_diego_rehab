@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.mentalHealthSection {
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0);
+  position: relative;
+}
+
+.mentalHealthSection:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/section-bg.webp') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.07;
+}
+
+.mentalHealthSectionHeader ul {
+  list-style-type: disc;
+  padding: 0 1rem;
+}
+
+.mentalHealthSectionHeader h1 {
+  font-size: 1.2rem;
+  color: rgb(105, 102, 102);
+}
+
+.mentalHealthSectionHeader p {
+  text-align: left;
+}
+
+.mentalHealthSectionContent {
+  padding: 3rem 0rem;
+}
+
+.mentalHealthSectionFlex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.mentalHealthSectionText {
+  width: 100%;
+  margin: auto;
+}
+
+.mentalHealthSectionText h1 {
+  font-size: 1.2rem;
+  color: rgb(105, 102, 102);
+}
+
+.mentalHealthSectionText ul {
+  list-style: disc;
+  padding: 0 1rem;
+}
+
+.mentalHealthSectionText p {
+  text-align: justify;
+}
+
+.mentalHealthSectionImage {
+  width: 100%;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  -moz-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+  box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+}
+
+.mentalHealthSectionImage img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.mentalHealthSectionFooter ul {
+  list-style-type: disc;
+  padding: 0 1rem;
+}
+
+.mentalHealthSectionFooter h1 {
+  font-size: 1.2rem;
+  color: rgb(105, 102, 102);
+}
+
+.mentalHealthSectionFooter p {
+  text-align: left;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+  .mentalHealthSectionFlex {
+    flex-wrap: wrap-reverse;
+  }
+  
+  .mentalHealthSectionText {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .mentalHealthSectionImage {
+    width: 100%;
+    margin: auto;
+  }
+
+  
+  }
+
+
+

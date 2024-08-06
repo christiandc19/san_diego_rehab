@@ -1,0 +1,203 @@
+/* Navbar.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.navbar {
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    background: #24c5a200;
+    position: absolute;
+    text-align: center;
+}
+
+.nav-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.navbar-logo {
+    z-index: 9999999;
+    width: 300px;
+    margin: auto 2rem;
+}
+
+.navbar-logo img {
+    width: 100%;
+}
+
+.navbar .icon {
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+
+.navbar .logo .icon {
+    font-size: 3rem;
+    margin-right: 1rem;
+    color: var(--primary-color);
+}
+
+.hamburger {
+    display: none;
+    padding: 1rem;
+    margin: auto 0;
+}
+
+.navbar .nav-menu {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    padding: .8rem 0;
+}
+
+.navbar ul {
+    margin: auto;
+}
+
+.navbar li {
+    width: max-content;
+    padding: .3rem .7rem;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.navbar li a {
+    color: #e9eef0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.navbar li a:hover {
+    color: rgb(211, 124, 11);
+}
+
+.menu-item .sub__menus li a {
+    color: #000000;
+    font-size: 13px;
+    padding: -1rem;
+}
+
+.menu-item .sub__menus li a:hover {
+    color: rgb(255, 123, 0) !important;
+}
+
+li .submenu-header {
+    font-size: 14px;
+    color: rgb(36, 131, 27);
+    font-weight: bolder;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* -----------------------------------------------------> SUB MENU */
+.sub__menus {
+    position: absolute;
+    display: none;
+    background: white;
+    border: 1px solid lavender;
+    border-radius: 5px;
+    width: auto;
+    padding: 2px 0 0 0;
+    margin-top: 6px;
+    z-index: 1000;
+}
+
+/* -----------------------------------------------------> DROPDOWN ARROW */
+.sub__menus__arrows svg,
+.sub__menus__arrows__full svg {
+    padding-top: 0px;
+    top: 10px;
+}
+
+.logo-hide {
+    display: none;
+}
+
+@media screen and (max-width: 1255px) {
+    .navbar .hamburger {
+        display: block;
+        z-index: 15;
+    }
+
+    .navbar ul {
+        margin: auto 0;
+    }
+
+    .logo-hide {
+        display: block;
+    }
+
+    .mid-logo {
+        display: none;
+    }
+
+    .navbar li a {
+        color: rgb(250, 250, 250);
+    }
+
+    .navbar .nav-menu {
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: -100%;
+        align-items: center;
+        justify-content: center;
+        background: #1C3B48;
+        transition: 0.5s ease-in;
+        color: white;
+    }
+
+    .navbar .active {
+        left: 0;
+    }
+
+    .navbar li {
+        font-size: 1rem;
+    }
+
+    .navbar button {
+        font-size: 1.8rem;
+    }
+
+    .menu-item .sub__menus li a {
+        font-size: 14px;
+    }
+
+    li .submenu-header {
+        font-size: 14px;
+    }
+
+    #submenu-item li {
+        padding: .2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .navbar-logo {
+      width: 250px;
+  }
+
+    .sub__menus {
+        width: 92vw;
+        left: 1rem;
+        border-radius: 0;
+        margin: auto;
+    }
+
+    .menu-item .sub__menus li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-item .sub__menus li:hover {
+        background-color: rgba(5, 88, 143, 0.719);
+        width: 100%;
+    }
+}

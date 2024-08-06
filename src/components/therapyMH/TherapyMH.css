@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Great+Vibes&display=swap');
+
+
+.TherapyMH {
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0);
+    position: relative;
+  }
+  
+  .TherapyMH:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/section-bg.webp') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.06;
+  }
+
+
+.TherapyMH .content {
+    top: 10%;
+    padding: 5rem 0 ;
+    text-align: center;
+}
+
+
+
+/* HEADER */
+
+.TherapyMH .TherapyMH-header {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.TherapyMH .left-content {
+    top: 15%;
+}
+
+.TherapyMH .TherapyMH-header h1{
+    font-family: "Roboto", sans-serif;   
+    color: rgb(26, 25, 25); 
+    font-size: 1.5rem;
+    letter-spacing: 5px; 
+    text-align: center;
+    font-weight: normal;
+}
+
+.TherapyMH .TherapyMH-header h2 {
+    color: #fd9b2f;
+    font-family: "Great Vibes", cursive;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+
+/* CARD */
+
+
+.mh-flex {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.mh-flex .box-icon {
+    font-size: 3rem;
+    color: #fd9b2f;
+    padding: 0;
+}
+
+.cardImage {
+    overflow: hidden; /* Ensure the image doesn't overflow its container */
+    z-index: 99999;
+}
+
+.cardImage img {
+    width: 100%;
+    transition: transform 0.6s ease-in-out; /* Smooth transition for transform */
+}
+
+.cardImage img:hover {
+    transform: scale(1.2); /* Scale the image up on hover */
+}
+
+.mh-flex h1 {
+    color: black;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+
+.mh-flex p {
+    color: #adadad;
+    padding: 0 .3rem;
+    text-align: center;
+}
+
+.mh-flex .card {
+    width: 35%;
+}
+
+/* button */
+
+.TherapyMH-btn {
+    width: 100%;
+    text-align: center;
+}
+
+.TherapyMH-btn button {
+    background-color: #fd9b2f;
+    color: white;
+}
+
+
+
+@media screen and (max-width:940px) {
+
+
+    .mh-flex{
+        flex-wrap: wrap;
+    }
+
+    .mh-flex .card {
+        width: 90%;
+        -webkit-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+        -moz-box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+        box-shadow: 0px 0px 10px -5px rgba(10,9,10,1);
+        padding: 1rem;
+    }
+
+    .TherapyMH .TherapyMH-header p {
+        font-size: 2rem;
+        letter-spacing: 0;
+    }
+
+
+}
+
+
+@media screen and (max-width:600px) {
+    .TherapyMH .TherapyMH-header h1{
+        font-size: 1.2rem;
+        letter-spacing: 3px; 
+
+    }
+    
+    .TherapyMH .TherapyMH-header h2 {
+        font-size: 1rem;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,133 @@
+.contactform {
+  background: #ffffff;
+  padding: 3rem 0;
+}
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.get_form_inner {
+  display: block;
+  padding: 3rem;
+  box-shadow: -4px -2px 20px -7px #cfd5df;
+  margin: 2rem 5rem;
+  flex: 3;
+}
+
+.map-container {
+  flex: 1;
+  margin: 2rem 5rem;
+  box-shadow: -4px -2px 20px -7px #cfd5df;
+}
+
+input {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+  color: #333;
+  height: 42px;
+  padding: 0 20px;
+  width: 100%;
+  outline: 0;
+}
+
+textarea {
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+  color: #333;
+  padding: 12px 20px;
+  width: 100%;
+  outline: 0;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+.get_form_inner_text h3 {
+  color: #333;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.get_form_inner_text p {
+  text-align: left;
+}
+
+input[type="submit"] {
+  background-color: #1C3B48;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 10px 20px;
+  outline: 0;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(190, 126, 6);
+  color: #fff;
+}
+
+.contact-cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.get_form_inner2 {
+  display: block;
+  width: 300px;
+  height: 150px;
+  padding: 2rem 1rem;
+  background: #fff;
+  box-shadow: -4px -2px 20px -7px #cfd5df;
+  margin: 1rem;
+}
+
+.get_form_inner2 h2 {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.get_form_inner2 p, .get_form_inner2 a {
+  color: rgb(39, 38, 38);
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.hidden {
+  display: none;
+  margin-bottom: 2rem;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  z-index: 2;
+}
+
+.textarea2 textarea {
+  border: none;
+  color: rgb(53, 82, 42);
+  text-align: center;
+}
+
+@media screen and (max-width: 940px) {
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .get_form_inner, .map-container {
+    margin: 2rem 1rem;
+  }
+}

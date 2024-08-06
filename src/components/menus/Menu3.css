@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.mentalHealthMenu {
+    padding: 5rem 0;
+}
+
+.mentalHealthMenuHeader {
+    padding: 2rem;
+    text-align: center;
+}
+
+.mentalHealthMenuHeader h1 {
+  color: #1C3B48;
+}
+
+.mentalHealthMenuFlex
+{
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.mentalHealthMenuFlexItem {
+    width: 300px;
+    background-color: #1C3B48;
+}
+
+.mentalHealthMenuFlexItem img {
+    width: 100%;
+}
+
+.menu3-card-caption {
+  padding: 1rem;
+  text-align: center;
+}
+
+
+.menu3-card-caption h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+

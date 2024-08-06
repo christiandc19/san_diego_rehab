@@ -1,0 +1,156 @@
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #1C3B48;
+    padding: 3rem 0;
+}
+
+/* .footer  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.footer .top {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer {
+    width: 250px;
+}
+
+.logo-footer img {
+    width: 100%;
+}
+
+.footer .top .icon {
+    font-size: 3rem;
+    margin-right: 1rem;
+    color: var(--primary-color);
+    cursor: pointer;
+    margin: auto;
+}
+
+.footer h2 {
+    font-size: 2rem;
+}
+
+.column-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.column {
+    width: 100%;
+}
+
+
+.footer h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+
+
+.footer p {
+    margin: .5rem 0;
+    color: rgb(9, 147, 189);
+    text-align: center;
+
+}
+
+.copyright p {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.certification {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.certificationLeft {
+    width: 40%;
+    text-align: center;
+
+}
+
+.certificationRight {
+    width: 40%;
+    padding: 1rem;
+}
+
+
+.certification h3 {
+    text-align: center;
+    font-size: .8rem;
+}
+
+.certification p {
+    text-align: center;
+    color: white;
+}
+
+.certificationLeftImage {
+    width: 200px;
+    margin: auto;
+}
+
+.certificationLeftImage img{
+    width: 100%;
+}
+
+.certificationRightImage {
+    width: 300px;
+    margin: auto;
+}
+
+.certificationRightImage img{
+    width: 100%;
+}
+
+
+
+.certification a:hover {
+    text-align: center;
+    color: rgb(10, 208, 235);
+}
+
+
+@media screen and (max-width: 940px) {
+    .certification {
+        flex-wrap: wrap;
+    }
+
+    .certificationRight {
+        width: 100%;
+    }
+
+    .certificationLeft {
+        width: 100%;
+    }
+    
+    
+    
+
+}
+
+
+@media screen and (max-width: 700px) {
+    .column-container {
+        flex-wrap: wrap;
+    }
+    
+
+}
+
+

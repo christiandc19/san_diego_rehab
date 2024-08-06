@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.section2 {
+    padding: 2rem 0;
+}
+
+.section2-content {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.section2 .card {
+    width: 30%;
+    padding: 1rem;
+    background-color: #1C3B48;
+
+}
+
+.card .icon {
+    text-align: center;
+}
+
+.section2 .card span {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    text-align: center;
+    
+}
+
+.section2-content h1 {
+    text-align: center;
+    color: #f1e9e9;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Instrument Serif', serif;
+    letter-spacing: 1px;
+}
+
+.section2-content p {
+    text-align: center;
+    color: #f1e9e9;
+
+}
+
+
+@media screen and (max-width:940px) {
+
+    .section2-content {
+        flex-wrap: wrap;
+    }
+
+    .section2 .card {
+        width: 90%;
+    }
+}

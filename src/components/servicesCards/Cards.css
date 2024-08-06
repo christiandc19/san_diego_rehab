@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+#cards {
+  background-color: #1C3B48;
+  padding: 3rem 0;
+}
+
+.main-cards-header {
+  padding: 1rem;
+}
+
+.main-cards-header p {
+  font-size: 15px;
+  padding: 1rem;
+  color: rgb(241, 247, 247);
+  font-weight: normal;
+  text-align: center;
+}
+
+.main-cards-header h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  color: rgb(241, 247, 247);
+  letter-spacing: 1px;
+  font-family: 'Roboto', serif;
+}
+
+.main-cards-header span {
+  font-family: "Great Vibes", cursive;  
+  font-size: 1.5rem;
+  color: rgb(207, 95, 4);
+}
+
+.main-cards-header h1 {
+  text-align: center;
+  font-family: 'Roboto', serif;
+  font-size: 1.5rem;
+  color: rgb(241, 247, 247);
+  letter-spacing: 5px;
+}
+
+
+/* CARDS */
+
+.cards-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.services-card {
+  width: 25%;
+}
+
+.services-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.services-card h1 {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.services-card p {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', serif;
+
+}
+
+.services-card-btn {
+  text-align: center;
+}
+
+
+.services-card-btn button {
+  background-color: rgba(255, 255, 255, 0.123);
+  color: white;
+  transition-duration: 0.5s;
+}
+
+.services-card-btn button:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+
+
+@media screen and (max-width:940px) {
+  .cards-flex {
+    flex-wrap: wrap;
+  }
+  
+  .services-card {
+    width: 40%;
+  }
+}
+
+
+@media screen and (max-width:700px) {
+  .cards-flex {
+    flex-wrap: wrap;
+  }
+  
+  .services-card {
+    width: 80%;
+  }
+}
+
+
+
+
+
+
+
