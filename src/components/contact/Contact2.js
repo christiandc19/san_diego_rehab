@@ -95,7 +95,7 @@ const ContactForm = () => {
         <input className="contact-btn" type="submit" value="Submit" />
 
         <div className="textarea2 feedback hidden">
-          <textarea name="message2" cols="30" rows="3" required>Message Sent to Ocean Valley BH Center!</textarea>
+          <textarea name="message2" cols="30" rows="3" required>Message Sent to San Diego Rehab BH Center!</textarea>
         </div>
 
 

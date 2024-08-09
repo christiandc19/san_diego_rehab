@@ -56,7 +56,7 @@ const ContactForm = () => {
                                 </div>
 
                                 <div className="textarea2 feedback hidden">
-                                    <textarea name="message2" cols="30" rows="3" readOnly>Message Sent to Ocean Valley BH Center!</textarea>
+                                    <textarea name="message2" cols="30" rows="3" readOnly>Message Sent to San Diego Rehab BH Center!</textarea>
                                 </div>
                             </form>
                         </div>

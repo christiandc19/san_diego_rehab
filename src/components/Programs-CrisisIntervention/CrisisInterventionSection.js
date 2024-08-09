@@ -30,7 +30,7 @@ const OpSection = () => {
 
         <div className="crisis-intervention-section-header">
               <h1>Benefits of a Crisis Intervention Service</h1>
-              <p>Welcome to Ocean Valley's Crisis Intervention Center. Our dedicated team is committed to providing immediate support and assistance during times of crisis. Here are some of the key benefits of utilizing our Crisis Intervention Center:</p><br/>
+              <p>Welcome to San Diego Rehab's Crisis Intervention Center. Our dedicated team is committed to providing immediate support and assistance during times of crisis. Here are some of the key benefits of utilizing our Crisis Intervention Center:</p><br/>
 
               <h2>1. Immediate Response</h2>
               <p>Our Crisis Intervention Center offers immediate assistance to individuals in acute distress or facing critical situations. We understand the urgency of these moments and are available around the clock to provide timely support. Whether you're experiencing overwhelming emotions, a traumatic event, or thoughts of self-harm, our team is here to help you navigate through these challenging moments.</p>
@@ -47,7 +47,7 @@ const OpSection = () => {
               <h2>5. Empowerment and Coping Skills</h2>
               <p>Through our Crisis Intervention Center, we aim to empower you with the tools and coping skills needed to navigate future challenges. We work collaboratively to develop a personalized safety plan that equips you with strategies to manage stress, emotions, and difficult situations. This empowerment lays the foundation for long-term resilience and well-being.</p><br/>
 
-              <p>At Ocean Valley, we are dedicated to providing timely and compassionate crisis intervention services to help individuals find stability and a path to healing. If you or someone you know is currently in crisis, please reach out to our Crisis Intervention Hotline at <a href='tel:3239025644'>+1 (323) 902-5644</a>.</p>
+              <p>At San Diego Rehab, we are dedicated to providing timely and compassionate crisis intervention services to help individuals find stability and a path to healing. If you or someone you know is currently in crisis, please reach out to our Crisis Intervention Hotline at <a href='tel:3239025644'>+1 (323) 902-5644</a>.</p>
 
         </div>
 

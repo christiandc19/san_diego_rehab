@@ -13,7 +13,7 @@ const CaseManagementSection = () => {
 
             <div className="case-management-section-header">
               <h1>Case Management Services</h1>
-              <p>Welcome to Ocean Valley's Case Management Services. Our dedicated case management team is here to provide comprehensive support and coordination to individuals seeking assistance on their journey to recovery.</p> 
+              <p>Welcome to San Diego Rehab's Case Management Services. Our dedicated case management team is here to provide comprehensive support and coordination to individuals seeking assistance on their journey to recovery.</p> 
             </div>
 
         <div className="case-management-section-flex">

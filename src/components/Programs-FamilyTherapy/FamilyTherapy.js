@@ -10,7 +10,7 @@ const FamilyTherapy = () => {
 
                 <div className="family-therapy-content">
                     <Fade top>
-                    <h1>Ocean Valley Family Addiction Therapy</h1>
+                    <h1>San Diego Rehab Family Therapy</h1>
                     </Fade>
                 </div>
             </div>
