@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/san_diego_rehab/static/css/main.165082ff.css",
-    "main.js": "/san_diego_rehab/static/js/main.9e8572d8.js",
+    "main.js": "/san_diego_rehab/static/js/main.495ce507.js",
     "static/media/palmtree.mp4": "/san_diego_rehab/static/media/palmtree.e6631b014aa7d53f6c64.mp4",
     "static/media/psychodynamic.jpg": "/san_diego_rehab/static/media/psychodynamic.cc5c9eb52b3c6ee1a3b0.jpg",
     "static/media/addiction-submenu-bg-min.webp": "/san_diego_rehab/static/media/addiction-submenu-bg-min.719d5f0313537adce909.webp",
@@ -45,19 +45,17 @@
     "static/media/anxiety.webp": "/san_diego_rehab/static/media/anxiety.3d34d528516a26410f4a.webp",
     "static/media/card1.webp": "/san_diego_rehab/static/media/card1.f8b6e3f6ec3475c58144.webp",
     "static/media/section3-img1.webp": "/san_diego_rehab/static/media/section3-img1.eed39a9374ff35b34ee4.webp",
-    "static/media/joint_commission_logo.webp": "/san_diego_rehab/static/media/joint_commission_logo.52d5d31b0c34f5183519.webp",
     "static/media/clinic_bg.webp": "/san_diego_rehab/static/media/clinic_bg.a4568fe378b8d6a57363.webp",
     "static/media/fentanyl_section_1.webp": "/san_diego_rehab/static/media/fentanyl_section_1.409aa12ca03fcc26316d.webp",
     "static/media/alcohol_addiction_section_1.webp": "/san_diego_rehab/static/media/alcohol_addiction_section_1.e12cac07192d98d66140.webp",
     "static/media/php-section1.webp": "/san_diego_rehab/static/media/php-section1.099a68685de30b4033b7.webp",
-    "static/media/DHCS-logo2.png": "/san_diego_rehab/static/media/DHCS-logo2.cc569a38c777d9d58d21.png",
     "static/media/section-bg.webp": "/san_diego_rehab/static/media/section-bg.9653aeee110164618463.webp",
     "index.html": "/san_diego_rehab/index.html",
     "main.165082ff.css.map": "/san_diego_rehab/static/css/main.165082ff.css.map",
-    "main.9e8572d8.js.map": "/san_diego_rehab/static/js/main.9e8572d8.js.map"
+    "main.495ce507.js.map": "/san_diego_rehab/static/js/main.495ce507.js.map"
   },
   "entrypoints": [
     "static/css/main.165082ff.css",
-    "static/js/main.9e8572d8.js"
+    "static/js/main.495ce507.js"
   ]
 }
