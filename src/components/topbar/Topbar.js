@@ -6,11 +6,11 @@ const Topbar = () => {
     <div className="topbar" name="top">
       <div className="topbar-content container">
         <div className="address bar-box1">
-          <p>515 W. Sacramento Ave. #215, Fullerton CA 92832</p>
+          <p>430 Nutmeg Street Suite 200, San Diego, Ca 92103</p>
         </div>
 
         <div className="email bar-box2">
-          <p>info@buenapark.com</p>
+          <p>info@SanDiegoRehab.biz</p>
         </div>
 
         <div className="number bar-box3">

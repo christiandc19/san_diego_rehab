@@ -56,8 +56,9 @@ const ContactForm = () => {
         <div class="address details">
           <i class="fas fa-map-marker-alt"></i>
           <div class="topic">Address</div><br/>
-          <div class="text-one">13961 Mauve Dr.,</div>
-          <div class="text-two">Santa Ana, CA 92705</div>
+          <div class="text-one">
+          430 Nutmeg Street Suite 200,</div>
+          <div class="text-two">San Diego, Ca 92103</div>
         </div>
 
         <div class="phone details">
@@ -69,7 +70,7 @@ const ContactForm = () => {
         <div class="email details">
           <i class="fas fa-envelope"></i>
           <div class="topic">Email</div><br/>
-          <div class="text-one">info@ovbhi.com</div>
+          <div class="text-one">info@SanDiegoRehab.biz</div>
         </div>
       </div>
 

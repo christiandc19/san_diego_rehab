@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import logo from "../../assets/nav-logo-cl.png";
 import "./FooterStyles.css";
-import DHCS from "../../assets/DHCS-logo2.png";
-import JointCommission from "../../assets/joint_commission_logo.webp";
+// import DHCS from "../../assets/DHCS-logo2.png";
+// import JointCommission from "../../assets/joint_commission_logo.webp";
 
 import { Link as LinkRoll } from "react-scroll";
 
@@ -13,7 +13,7 @@ const Footer = () => {
     <>
       <div className="footer">
         <div>
-          <div className="top">
+          <div className="top container">
 
             <div className="logo-footer">
               <img src={logo} alt="Sacramento Rehab Logo" loading="lazy"/>
@@ -114,7 +114,7 @@ const Footer = () => {
 
 
 
-                <div className="certification">
+                {/* <div className="certification">
 
                   <div className="certificationLeft">
                         <h3>Licensed by the State Department of Health Care Services</h3>
@@ -145,7 +145,7 @@ const Footer = () => {
                     </div>
 
                   </div>
-
+ */}
 
 
           <p className="copyright">

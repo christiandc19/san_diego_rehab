@@ -84,12 +84,12 @@ const ContactForm = () => {
 
                 <div className="get_form_inner2">
                     <h2>EMAIL</h2>
-                    <p><AiOutlineMail /> info@ovbhi.com </p><br />
+                    <p><AiOutlineMail /> info@SanDiegoRehab.biz </p><br />
                 </div>
 
                 <div className="get_form_inner2">
                     <h2>LOCATION</h2>
-                    <p><BsFillPinMapFill /> 13961 Mauve Dr., Santa Ana, CA 92705 </p>
+                    <p><BsFillPinMapFill /> 430 Nutmeg Street Suite 200, San Diego, Ca 92103</p>
                 </div>
             </div>
         </div>
