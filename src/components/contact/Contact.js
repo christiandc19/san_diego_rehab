@@ -15,7 +15,7 @@ const Contact = () => {
                   <Fade top>
                         <h1>HAVE SOME QUESTIONS?</h1>
                         <h2>Our Addiction and Recovery Support team is available to assist you.</h2>
-                        <h3><a href="tel:3237920502">323 792-0605</a></h3>
+                        <h3><a href="tel:3239403600">(323) 940-3600</a></h3>
                   </Fade>
             </div>
       </div>
