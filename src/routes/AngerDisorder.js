@@ -4,7 +4,7 @@ import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
 import ANGERDISORDER from '../components/MH-AngerDisorder/AngerDisorder'
 import AngerDisorderSection from '../components/MH-AngerDisorder/AngerDisorderSection'
-import ContactForm2 from '../components/contact/Contact2'
+import ContactForm from '../components/contact/ContactForm'
 import InsuranceSection from '../components/insurance/InsuranceSection'
 
 
@@ -15,7 +15,7 @@ const AngerDisorder = () => {
     <ANGERDISORDER />
     <AngerDisorderSection />
     <InsuranceSection />
-    <ContactForm2 />
+    <ContactForm />
     <Footer />
      </>
   )

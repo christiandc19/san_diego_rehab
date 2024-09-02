@@ -1,6 +1,6 @@
 import React from 'react'
 import InsuranceSection from '../insurance/InsuranceSection';
-import ContactForm2 from '../contact/Contact2';
+import ContactForm2 from '../contact/ContactForm';
 import MissionHome from '../mission/MissionHome';
 import TherapySA from '../therapySA/TherapySA';
 import TherapyMH from '../therapyMH/TherapyMH';

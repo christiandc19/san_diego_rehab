@@ -5,7 +5,7 @@ import Footer from '../components/footer/Footer'
 import OPIATE from '../components/Addiction-Opiate/Opiate'
 import OpiateSection from '../components/Addiction-Opiate/OpiateSection'
 import InsuranceSection from '../components/insurance/InsuranceSection'
-import Contact2 from '../components/contact/Contact2'
+import ContactForm from '../components/contact/ContactForm'
 
 
 const Fentanyl = () => {
@@ -15,7 +15,7 @@ const Fentanyl = () => {
     <OPIATE />
     <OpiateSection />
     <InsuranceSection />
-    <Contact2 />
+    <ContactForm />
     <Footer />
      </>
   )

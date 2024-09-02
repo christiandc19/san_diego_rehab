@@ -5,7 +5,7 @@ import Footer from '../components/footer/Footer'
 import ADHD from '../components/MH-Adhd/Adhd'
 import AdhdSection from '../components/MH-Adhd/AdhdSection'
 import InsuranceSection from '../components/insurance/InsuranceSection'
-import ContactForm2 from '../components/contact/Contact2'
+import ContactForm from '../components/contact/ContactForm'
 
 
 const Adhd = () => {
@@ -15,7 +15,7 @@ const Adhd = () => {
     <ADHD />
     <AdhdSection />
     <InsuranceSection />
-    <ContactForm2 />
+    <ContactForm />
     <Footer />
      </>
   )

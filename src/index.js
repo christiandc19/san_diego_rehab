@@ -45,6 +45,7 @@ import CaseManagementPage from './routes/Programs-CaseManagement';
 import CrisisInterventionPage from './routes/Programs-CrisisIntervention';
 import FamilyTherapyPage from './routes/Programs-FamilyTherapy';
 
+import PrivacyPolicyPage from './routes/PrivacyPolicyPage';
 
 
 
@@ -93,7 +94,7 @@ ReactDOM.render(
       <Route exact path='/family-therapy' element={<FamilyTherapyPage />} />
 
 
-
+      <Route exact path='/privacy-policy' element={<PrivacyPolicyPage />} />
 
 
       <Route exact path='/treatment' element={<TreatmentPage />} />

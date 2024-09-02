@@ -4,7 +4,7 @@ import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
 import CaseManagement from '../components/Programs-CaseManagement/CaseManagement'
 import CaseManagementSection from '../components/Programs-CaseManagement/CaseManagementSection'
-import Contact2 from "../components/contact/Contact2";
+import ContactForm from "../components/contact/ContactForm";
 
 
 
@@ -14,7 +14,7 @@ const CaseManagementPage = () => {
     <Navbar /> 
     <CaseManagement />
     <CaseManagementSection />
-    <Contact2 />
+    <ContactForm />
     <Footer />
      </>
   )

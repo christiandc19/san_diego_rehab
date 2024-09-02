@@ -6,7 +6,7 @@ import MH from '../components/MH/MH'
 import MentalHealthMenu from '../components/menus/MentalHealthMenu';
 
 import InsuranceSection from '../components/insurance/InsuranceSection'
-import Contact2 from '../components/contact/Contact2'
+import ContactForm from '../components/contact/ContactForm'
 
 
 
@@ -18,7 +18,7 @@ const MHealth = () => {
     <MH />
     <MentalHealthMenu />
     <InsuranceSection />
-    <Contact2 />
+    <ContactForm />
     <Footer />
      </>
   )
