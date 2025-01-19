@@ -21,7 +21,7 @@
 
 .navbar-logo {
     z-index: 9999999;
-    width: 300px;
+    width: 250px;
     margin: auto 2rem;
 }
 
@@ -142,7 +142,7 @@ li .submenu-header {
     .navbar .nav-menu {
         position: absolute;
         flex-direction: column;
-        width: 100%;
+        width: 75%;
         height: 100vh;
         top: 0;
         left: -100%;
@@ -157,25 +157,31 @@ li .submenu-header {
         left: 0;
     }
 
+    .menu-item .sub__menus li {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px dashed rgba(0, 0, 0, 0.144);
+
+    }
+
+
+    .navbar ul {
+        left: 0;
+        width: 100%;
+    }
+
     .navbar li {
-        font-size: 1rem;
+        font-size: 1rem;        
     }
 
     .navbar button {
         font-size: 1.8rem;
     }
 
-    .menu-item .sub__menus li a {
-        font-size: 14px;
-    }
-
     li .submenu-header {
         font-size: 14px;
     }
 
-    #submenu-item li {
-        padding: .2rem 1rem;
-    }
 }
 
 @media screen and (max-width: 500px) {
@@ -185,16 +191,11 @@ li .submenu-header {
   }
 
     .sub__menus {
-        width: 92vw;
         left: 1rem;
         border-radius: 0;
         margin: auto;
     }
 
-    .menu-item .sub__menus li {
-        width: 100%;
-        text-align: center;
-    }
 
     .menu-item .sub__menus li:hover {
         background-color: rgba(5, 88, 143, 0.719);

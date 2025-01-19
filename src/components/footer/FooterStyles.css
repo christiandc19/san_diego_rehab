@@ -53,14 +53,14 @@
 .footer h3 {
     text-transform: uppercase;
     text-align: center;
-    color: white;
+    color: var(--primary-color);
     font-size: 1rem;
 }
 
 
 .footer p {
     margin: .5rem 0;
-    color: rgb(9, 147, 189);
+    color: rgb(255, 255, 255);
     text-align: center;
 
 }
@@ -73,19 +73,17 @@
 }
 
 .certification {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+    width: 100%;
 }
 
-.certificationLeft {
-    width: 40%;
+.dhcs {
+    width: 100%;
     text-align: center;
 
 }
 
-.certificationRight {
-    width: 40%;
+.joint {
+    width: 100%;
     padding: 1rem;
 }
 
@@ -100,25 +98,23 @@
     color: white;
 }
 
-.certificationLeftImage {
-    width: 200px;
+.dhcsImage {
+    width: 130px;
     margin: auto;
 }
 
-.certificationLeftImage img{
+.dhcsImage img{
     width: 100%;
 }
 
-.certificationRightImage {
-    width: 300px;
+.jointImage {
+    width: 130px;
     margin: auto;
 }
 
-.certificationRightImage img{
+.jointImage img{
     width: 100%;
 }
-
-
 
 .certification a:hover {
     text-align: center;

@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import logo from "../../assets/nav-logo-cl.png";
 import "./FooterStyles.css";
-// import DHCS from "../../assets/DHCS-logo2.png";
-// import JointCommission from "../../assets/joint_commission_logo.webp";
+import DHCS from "../../assets/DHCS-logo2.png";
+// import JointCommission from "../../assets/the_joint_commission_logo.png";
 
 import { Link as LinkRoll } from "react-scroll";
 
@@ -114,38 +114,37 @@ const Footer = () => {
 
 
 
-                {/* <div className="certification">
+          <div className="certification">
 
-                  <div className="certificationLeft">
-                        <h3>Licensed by the State Department of Health Care Services</h3>
-                        <p>Certification number: 300201BP <br />Certification Expiration date: 11/30/24</p>
-                        <br />
-                        <a href="https://data.chhs.ca.gov/dataset/sud-recovery-treatment-facilities"
-                        target="_blank"
-                        rel="noreferrer">( View License & Certification Information here ).</a>
-                            <div className='certificationLeftImage'>
-                                <img
-                                src={DHCS}
-                                alt="DHCS Logo"
-                                loading="lazy"
-                                />
-                            </div>
-                    </div>
+            <div className="dhcs">
+                  <h3>Certified by the State Department of Health Care Services</h3>
+                  <p>Certification Number: 370230AP <br /> Expiration Date: 9/30/2026</p>
+                  <br />
+                  <a href="https://data.chhs.ca.gov/dataset/sud-recovery-treatment-facilities"
+                  target="_blank"
+                  rel="noreferrer">( View License & Certification Information here ).</a>
+                      <div className='dhcsImage'>
+                          <img
+                          src={DHCS}
+                          alt="DHCS Logo"
+                          loading="lazy"
+                          />
+                      </div>
+              </div>
+{/* 
+              <div className="joint">
+                  <h3>San Diego Rehab is accredited by The Joint Commission and have been awarded its Gold Seal of Approval™</h3>
+                  
+                      <div className='jointImage'>
+                          <img
+                          src={JointCommission}
+                          alt="Joint Commission Logo"
+                          loading="lazy"
+                          />
+                      </div>
+              </div> */}
 
-                    <div className="certificationRight">
-                        <h3>San Diego Rehab is accredited by The Joint Commission and have been awarded its Gold Seal of Approval™</h3>
-                        
-                            <div className='certificationRightImage'>
-                                <img
-                                src={JointCommission}
-                                alt="Joint Commission Logo"
-                                loading="lazy"
-                                />
-                            </div>
-                    </div>
-
-                  </div>
- */}
+            </div>
 
 
           <p className="copyright">
